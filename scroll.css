@@ -1,0 +1,5 @@
+.remark-slide-content {
+  overflow-y: auto;
+  height: 600px; /* adjust this height as needed */
+  padding: 20px;
+}

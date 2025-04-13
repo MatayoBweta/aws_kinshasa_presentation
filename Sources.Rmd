@@ -1,0 +1,117 @@
+---
+title: "Sources et données chiffrées"
+subtitle: "Gestion de l'information dans des environnements multi-technologiques en Afrique"
+author: "Stanyslas Matayo"
+date: "`r format(Sys.Date(), '%d %B %Y')`"
+output:
+  xaringan::moon_reader:
+    css: [default, metropolis, metropolis-fonts, scroll.css]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:10'
+---
+
+## 1. Chiffres clés du numérique en Afrique
+
+### Adoption des systèmes d'information sanitaires
+- **Statistique**: "Plus de 40% de la population mondiale est couverte par DHIS2 via son utilisation dans 80 pays à revenu faible ou intermédiaire, dont de nombreux en Afrique"
+- **Source**: IQVIA, "Digital Health System Maturity in Africa"
+- **URL**: https://www.iqvia.com/-/media/iqvia/pdfs/mea/white-paper/iqvia-digital-health-system-maturity-in-africa.pdf
+- **Secteur**: Santé numérique
+- **Impact**: Base pour l'interopérabilité des systèmes de santé en Afrique
+
+### Interopérabilité des services financiers en Tanzanie
+- **Statistique**: "Marché de 16 millions d'utilisateurs pouvant effectuer des transactions inter-réseaux" (suite à l'accord d'interopérabilité mobile money)
+- **Source**: "Tanzania seals Africa's first mobile money interoperability agreement" - ITWeb Africa
+- **URL**: https://itweb.africa/content/KA3Ww7dDQA17rydZ
+- **Secteur**: Services financiers mobiles
+- **Impact**: Renforcement de l'inclusion financière
+
+## 2. Données sur l'aide humanitaire
+
+### Aide alimentaire au Tigré (Éthiopie)
+- **Statistique**: "Plus de 400 000 personnes demeurent déplacées" (contexte post-conflit)
+- **Source**: "WFP digitalises Ethiopia's food aid" - ITWeb Africa
+- **URL**: https://itweb.africa/content/4r1lyMR9ZdD7pmda
+- **Secteur**: Aide humanitaire numérique
+- **Impact**: Déploiement de systèmes numériques pour tracer l'aide alimentaire
+
+### Services gouvernementaux au Kenya
+- **Statistique**: "52 centres physiques Huduma disséminés dans le pays pour fournir plus de 5 000 services publics intégrés"
+- **Source**: "10 Examples of Successful African e-Government Digital Services" - ICTworks
+- **URL**: https://www.ictworks.org/examples-african-e-government-digital-services/
+- **Secteur**: Administration publique
+- **Impact**: Amélioration significative de l'accessibilité aux services publics
+
+## 3. Adoption des cadres réglementaires
+
+### Convention de Malabo sur la cybersécurité
+- **Statistique**: "Il a fallu près de 9 ans pour qu'elle entre en vigueur (juin 2023) faute d'un nombre suffisant de ratifications, et à ce jour seuls 15 pays sur 55 l'ont ratifiée"
+- **Source**: "The AU took important action on cybersecurity at its 2024 summit" - Chatham House
+- **URL**: https://www.chathamhouse.org/2024/02/au-took-important-action-cybersecurity-its-2024-summit-more-needed
+- **Secteur**: Réglementation et gouvernance
+- **Impact**: Adoption lente limitant l'harmonisation régionale des cadres de cybersécurité
+
+### Open Banking au Nigeria
+- **Statistique**: "Premier cadre réglementaire d'open banking en Afrique" (2021-2023)
+- **Source**: "Nigeria Greenlights Open Banking" - PYMNTS.com
+- **URL**: https://www.pymnts.com/bank-regulation/2023/nigeria-greenlights-open-banking-to-deepen-financial-inclusion-boost-innovation/
+- **Secteur**: Finance et technologies
+- **Impact**: Innovation dans les services financiers et inclusion financière
+
+## 4. Infrastructures et services numériques
+
+### Plateforme d'e-gouvernement au Bénin
+- **Statistique**: "Portail service-public.bj donnant accès à plus de 200 services en ligne intégrés"
+- **Source**: "10 Examples of Successful African e-Government Digital Services" - ICTworks
+- **URL**: https://www.ictworks.org/examples-african-e-government-digital-services/
+- **Secteur**: Administration électronique
+- **Impact**: Modernisation des services publics et amélioration de l'efficacité administrative
+
+### Interopérabilité mobile money en Tanzanie
+- **Statistique**: "Premier accord d'interopérabilité mobile money en Afrique" (2014)
+- **Source**: "Tanzania seals Africa's first mobile money interoperability agreement" - ITWeb Africa
+- **URL**: https://itweb.africa/content/KA3Ww7dDQA17rydZ
+- **Secteur**: Services financiers mobiles
+- **Impact**: Modèle pour d'autres pays (Kenya depuis 2018)
+
+## 5. Systèmes intégrés en santé
+
+### Adoption de DHIS2 en Afrique
+- **Statistique**: "Au Ghana ou au Kenya, DHIS2 est implanté depuis 2012 et sert de référentiel national des indicateurs de santé"
+- **Source**: IQVIA, "Digital Health System Maturity in Africa"
+- **URL**: https://www.iqvia.com/-/media/iqvia/pdfs/mea/white-paper/iqvia-digital-health-system-maturity-in-africa.pdf
+- **Secteur**: Santé publique
+- **Impact**: Base pour les décisions stratégiques en santé publique
+
+### Innovation en Afrique du Sud
+- **Statistique**: "Intégration récente en Afrique du Sud d'un système de gestion des ressources humaines avec DHIS2 via le standard FHIR"
+- **Source**: IQVIA, "Digital Health System Maturity in Africa"
+- **URL**: https://www.iqvia.com/-/media/iqvia/pdfs/mea/white-paper/iqvia-digital-health-system-maturity-in-africa.pdf
+- **Secteur**: Interopérabilité en santé
+- **Impact**: Suivi de la disponibilité des personnels de santé en temps réel au niveau national
+
+## 6. Tableaux comparatifs des sources
+
+### Secteur public
+| Pays | Initiative | Données chiffrées | Source |
+|------|------------|-------------------|--------|
+| Bénin | Plateforme d'interopérabilité | 200+ services en ligne | ICTworks (2023) |
+| Kenya | Huduma Centres | 52 centres, 5000+ services | ICTworks (2023) |
+| Côte d'Ivoire | Programme d'e-Gouvernement | SOC national unique | ICTworks (2023) |
+
+### Secteur financier
+| Pays | Initiative | Données chiffrées | Source |
+|------|------------|-------------------|--------|
+| Tanzanie | Interopérabilité mobile money | 16 millions d'utilisateurs (2014) | ITWeb Africa |
+| Nigeria | Open Banking | Premier cadre en Afrique (2023) | PYMNTS.com |
+| Kenya | M-Pesa/Airtel Money | Interopérabilité depuis 2018 | CGAP |
+
+### Secteur humanitaire et santé
+| Secteur | Initiative | Données chiffrées | Source |
+|---------|------------|-------------------|--------|
+| Santé | DHIS2 | 40% population mondiale, 80 pays | IQVIA |
+| Aide | Éthiopie/PAM | 400,000+ personnes déplacées | ITWeb Africa |
+| Réfugiés | PING (Tanzanie) | Camps Nyarugusu et Nduta | UNHCR Blog |
