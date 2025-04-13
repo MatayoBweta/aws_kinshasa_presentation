@@ -4,20 +4,20 @@ subtitle: "Enjeux, bonnes pratiques et défis spécifiques à l'Afrique"
 author: "Stanyslas Matayo"
 date: "`r format(Sys.Date(), '%d %B %Y')`"
 output: 
-  word_document:
-    toc: false
-    toc_depth: 2
-    number_sections: false
-    fig_caption: true
-    highlight: "tango"
-    df_print: "kable"                # Better table formatting
-    fig_width: 6                     # Default figure width in inches
-    fig_height: 4                    # Default figure height in inches
-    keep_md: false                   # Don't keep intermediate markdown file
-    pandoc_args: [
-      "--standalone",
-      "--wrap=none"                  # Prevents unwanted text wrapping
-    ]
+  html_document:
+    toc: true                      # Table of contents is often useful in HTML
+    toc_depth: 2                   # Same depth as before
+    toc_float: true                # Make TOC floating for better navigation
+    number_sections: false         # As requested
+    fig_caption: true              # As requested
+    highlight: "tango"             # Same syntax highlighting
+    df_print: "kable"              # Same table formatting
+    fig_width: 6                   # Same figure width
+    fig_height: 4                  # Same figure height
+    code_folding: "hide"           # Option to hide/show code (not in Word)
+    theme: "flatly"                # Add a nice theme (HTML-only option)
+    self_contained: true           # All dependencies in one file
+    smooth_scroll: true            # For TOC navigation
 ---
 
 # Gestion de l’information dans des environnements multi-technologiques : Enjeux, bonnes pratiques et défis spécifiques à l’Afrique
