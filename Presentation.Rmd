@@ -1,6 +1,23 @@
 ---
-title: "Presentation"
-output: html_document
+title: "Gestion de l'information dans des environnements multi-technologiques"
+subtitle: "Enjeux, bonnes pratiques et défis spécifiques à l'Afrique"
+author: "Stanyslas Matayo"
+date: "`r format(Sys.Date(), '%d %B %Y')`"
+output: 
+  word_document:
+    toc: false
+    toc_depth: 2
+    number_sections: false
+    fig_caption: true
+    highlight: "tango"
+    df_print: "kable"                # Better table formatting
+    fig_width: 6                     # Default figure width in inches
+    fig_height: 4                    # Default figure height in inches
+    keep_md: false                   # Don't keep intermediate markdown file
+    pandoc_args: [
+      "--standalone",
+      "--wrap=none"                  # Prevents unwanted text wrapping
+    ]
 ---
 
 # Gestion de l’information dans des environnements multi-technologiques : Enjeux, bonnes pratiques et défis spécifiques à l’Afrique
